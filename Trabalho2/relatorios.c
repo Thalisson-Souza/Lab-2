@@ -66,8 +66,8 @@ void gerar_relatorio_estatisticas(Time times[], int num_times) {
 
     for (int i = 0; i < num_times; i++) {
         printf("Time: %s\n", times[i].nome);
-        printf("  - Gols Feitos: %d, Gols Sofridos: %d, Cartoes Amarelos: %d, Cartoes Vermelhos: %d, Faltas: %d\n",
-            times[i].gols_feitos, times[i].gols_sofridos, times[i].cartoes_amarelos, times[i].cartoes_vermelhos, times[i].faltas);
+        printf("  - Gols Feitos: %d, Gols Sofridos: %d\n",
+            times[i].gols_feitos, times[i].gols_sofridos);
     }
     printf("===============================================================\n");
 }
