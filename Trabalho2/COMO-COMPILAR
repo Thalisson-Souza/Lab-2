@@ -1,0 +1,6 @@
+# Para compilar o código-fonte e gerar o executável:
+
+    gcc main.c time.c partida.c exibir.c relatorios.c -o programa
+
+# Para rodar o programa:
+    ./programa
