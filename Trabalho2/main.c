@@ -62,7 +62,6 @@ int main() {
     rodadas[num_rodadas].num_partidas = 0;
     cadastrar_partida(&rodadas[num_rodadas], &times[0], &times[1]);
     registrar_evento(&rodadas[num_rodadas].partidas[0], 10, "Gol do Internacional!"); // Registrar um evento para a primeira partida (gol aos 10 minutos)
-    registrar_evento(&rodadas[num_rodadas].partidas[0], 20, "Cartao Amarelo para Marcelo Lomba");  // Registrar mais um evento (cartão amarelo aos 20 minutos)
     num_rodadas++;
 
     // Segunda rodada e registro de situações no jogo
@@ -72,7 +71,6 @@ int main() {
     registrar_evento(&rodadas[num_rodadas].partidas[0], 10, "Gol do Internacional!"); // Registrar um evento para a primeira partida da segunda rodada (gol aos 10 minutos)
     registrar_evento(&rodadas[num_rodadas].partidas[0], 16, "Gol do Internacional!");
     registrar_evento(&rodadas[num_rodadas].partidas[0], 18, "Gol do Internacional!");
-    registrar_evento(&rodadas[num_rodadas].partidas[0], 20, "Cartao Amarelo para Geromel");
     num_rodadas++;
 
     // Exibir rodadas e eventos
