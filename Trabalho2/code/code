@@ -1,0 +1,6 @@
+# Para compilar o código-fonte e gerar o executável:
+
+    gcc -o programa main.c busca.c lista.c arvore.c
+
+# Para rodar o programa:
+    ./programa
