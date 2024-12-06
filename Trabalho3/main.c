@@ -47,7 +47,7 @@ int main() {
 
         if (opcao == 1) {   // Inserir um novo carro
             Carro novoCarro;
-            printf("Digite a placa (no formato-> XXX1234): ");
+            printf("Digite a placa (no formato -> XXX1234): ");
             scanf("%s", novoCarro.placa);
             printf("Digite a marca do carro a ser inserido: ");
             scanf("%s", novoCarro.marca);
@@ -64,7 +64,7 @@ int main() {
 
         } else if (opcao == 2) {    // Excluir um carro pela placa
             char placa[10];
-            printf("\nDigite a placa do carro a ser removido: ");
+            printf("\nDigite a placa do carro a ser removido(no formato -> XXX1234): ");
             scanf("%s", placa);
 
             // Remove o carro da lista e das árvores
